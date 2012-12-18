@@ -1,0 +1,16 @@
+author: MDCollins
+database: false
+description: Allows the toggle of the /mb command.
+generator: http://dinnerbone.com/minecraft/tools/pluginator/
+main: com.blockmovers.plugins.mbtoggle.MBToggle
+name: MBToggle
+startup: postworld
+url: http://blockmovers.com/
+version: '0.1'
+commands:
+  mbtoggle:
+    usage: /<command>
+    aliases: mbt
+permissions:
+  mbtoggle.use:
+    default: false
