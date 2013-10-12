@@ -6,7 +6,7 @@ main: com.blockmovers.plugins.mbtoggle.MBToggle
 name: MBToggle
 startup: postworld
 url: http://blockmovers.com/
-version: '0.1'
+version: '${version}'
 commands:
   mbtoggle:
     usage: /<command>
